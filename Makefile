@@ -2,7 +2,8 @@
 # Makefile for first.gba
 #
 
-PATH := $(DEVKITARM)/bin:$(PATH)
+PATH  := $(DEVKITARM)/bin:$(PATH)
+SHELL := env PATH=$(PATH) /bin/zsh
 
 # --- Project details -------------------------------------------------
 
