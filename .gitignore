@@ -1,0 +1,7 @@
+# Project Output
+*.o
+*.elf
+*.gba
+
+# IDE config
+.vscode
